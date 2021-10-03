@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "devDependencies": {
+    "cypress": "^8.4.0",
+    "dateformat": "^4.5.1"
+  },
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "csv-parse": "^4.16.3",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
